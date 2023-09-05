@@ -1,16 +1,22 @@
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+font-family: 'Work Sans', sans-serif; */
+
 html,
 body {
   min-width: 290px;
   color: #4d4e53;
   background-color: #ffffff;
-  font-family: 'Open Sans', Arial, sans-serif;
+  font-family: 'Roboto', sans-serif;
   line-height: 1.5;
   margin: 0;
 }
 
 #main-doc header {
   text-align: left;
-  margin: 15px 10px;
+  /* margin-left: 50px; */
+  margin: 15px 0 15px 50px;
   font-family: sans-serif;
   font-weight: 600;
 }
@@ -31,8 +37,12 @@ body {
   margin-left: 305px;
 }
 
+#main-doc section article {
+  margin-left: 50px;
+}
+
 #navbar ul header {
-  margin-left: -15px;
+  margin-left: -20px;
   font-family: sans-serif;
   font-weight: 600;
 }
