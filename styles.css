@@ -1,24 +1,16 @@
-/* font-family: 'Montserrat', sans-serif;
-font-family: 'Roboto', sans-serif;
-font-family: 'Ubuntu', sans-serif;
-font-family: 'Work Sans', sans-serif; */
-
 html,
 body {
   min-width: 290px;
   color: #4d4e53;
-  background-color: #ffffff;
-  font-family: 'Roboto', sans-serif;
+  background-color: #fff;
   line-height: 1.5;
   margin: 0;
 }
 
 #main-doc header {
   text-align: left;
-  /* margin-left: 50px; */
   margin: 15px 0 15px 50px;
-  font-family: sans-serif;
-  font-weight: 600;
+  font-weight: bold;
 }
 
 #navbar {
@@ -33,18 +25,38 @@ body {
 }
 
 #main-doc {
+  font-weight: lighter;
   position: relative;
   margin-left: 305px;
 }
 
+#main-doc section header {
+  font-family: 'Molengo', sans-serif;
+  font-weight: 900;
+  font-size: 32px;
+}
+
 #main-doc section article {
+  display: flex;
+  font-family: 'Abel', sans-serif;
+  font-size: 1.2em;
+  font-weight: bolder;
   margin-left: 50px;
+  margin-right: 50px;
+  color: #000;
+  justify-content:center
+}
+
+#main-doc section article ol li {
+  margin-left: -20px;
 }
 
 #navbar ul header {
   margin-left: -20px;
-  font-family: sans-serif;
-  font-weight: 600;
+  margin-right: 1px;
+  font-family: 'Molengo', sans-serif;
+  font-weight: bolder;
+  font-size: 32px;
 }
 
 #navbar ul li {
