@@ -26,6 +26,12 @@ body {
   border-color: rgba(0, 22, 22, 0.4);
 }
 
+#navbar header {
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin: 20px 40px;
+}
+
 #main-doc {
   font-weight: lighter;
   position: relative;
@@ -52,6 +58,10 @@ body {
 }
 
 #Introduction_PHP {
+  margin-left: 0px;
+}
+
+#main-doc #launching_zoho_desktop_mail_application {
   margin-left: 0px;
 }
 
