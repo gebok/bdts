@@ -35,13 +35,7 @@ body {
 #main-doc section header {
   font-weight: normal;
   font-family: 'Open Sans', Tahoma;
-  font-size: 30px;
 }
-
-/* h1,
-h2 {
-  font-family: Verdana, Tahoma;
-} */
 
 #main-doc section article {
   display: block;
@@ -57,11 +51,11 @@ h2 {
   justify-content:center
 }
 
-#php_introduction {
+#Introduction_PHP {
   margin-left: 0px;
 }
 
-#php_introduction #php_introduction_comments {
+#Introduction_PHP #php_introduction_comments {
   margin-left: 70px;
 }
 
@@ -71,30 +65,35 @@ h2 {
   justify-content: space-evenly;
 }
 
-#main-doc #php_some_Characteristics article ul li {
+#main-doc #PHP_Some_Characteristics article ul li {
   /* margin-left: -23px; */
   align-content: space-between;
   justify-content: space-evenly;
 }
 
-#main-doc #php_other_characteristics p {
+#main-doc #PHP_Other_Characteristics p {
   margin-left: 20px;
 }
 
-#main-doc #php_why_should_we_use_php article {
+#main-doc #PHP_Why_should_we_use_PHP article {
   margin-left: 70px;
 }
 
 #navbar ul header {
   margin-left: -20px;
   margin-right: 1px;
-  /* font-family: 'Molengo', sans-serif; */
-  /* font-weight: bolder; */
-  /* font-size: 25px; */
 }
 
 #navbar ul li {
   margin: 0 0 15px;
+  list-style: none;
+}
+
+.code {
+  padding: 10px;
+  border-radius: 5px;
+  width: 100%;
+  background-color: rgb(242, 238, 238);
 }
 
 @media only screen and (max-width: 815px) {
