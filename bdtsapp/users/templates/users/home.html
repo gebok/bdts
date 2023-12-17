@@ -1,0 +1,55 @@
+{% extends "users/base.html" %} {% block title %} Home Page {% endblock title%}
+{% block content %}
+<div class="jumbotron">
+  <h1 class="header mt-2" align="center">
+    {% load static %}
+    <img src="{% static '/images/logo_edited.png' %}" alt="logo" class="img" />
+    Bible Discovery Training School
+    <span align="center"
+      ><h5 class="h5-title">A Global Learning Institute</h5></span
+    >
+  </h1>
+
+  <p class="mt-4 intro-text">
+    Pertaining to <b>Proverbs 4:13</b>, “Education is life”; Bible Discovery
+    Training School values education very vital in human development. Since all
+    human development is measured by the way a person view or perceive it
+    (education) formally or informally there is got to be a deeper meaning to
+    why Scripture spells it out
+
+    <br /><br />
+
+    Education from its etymology has to do with the process of impacting
+    knowledge, skills, and applying judgment in accuracy, therefore good
+    education is essential for a well-run society. BDTS believes in utilizing
+    education in different ways/ perspective for the good of all humans
+    especially from the Biblical point of view
+  </p>
+
+  <hr class="my-4" />
+
+  {% comment %}
+  <div class="badge bg-success msg"></div>
+  {% endcomment %}
+  <blockquote class="blockquote" align="center">
+    A Friendly Training School Without Denomination Walls …Hunger + Thirst =
+    Filling.
+  </blockquote>
+
+  <hr class="my-4" />
+
+  {% comment %}
+  <p class="lead">
+    {% if user.is_authenticated %}
+    <a class="btn btn-primary btn-lg" href="{% url 'logout' %}" role="button"
+      >Logout</a
+    >
+    {% else %}
+    <a class="btn btn-primary btn-lg" href="{% url 'login' %}" role="button"
+      >Sign in</a
+    >
+    {% endif %}
+  </p>
+  {% endcomment %}
+</div>
+{% endblock content %}
