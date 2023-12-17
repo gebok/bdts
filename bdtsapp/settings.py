@@ -84,8 +84,8 @@ DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.postgresql",
         "NAME": "bdtsapp",
-        "USER": "postgres",
-        "PASSWORD": "aif[]05Gah%^&",
+        "USER": "rasoka",
+        "PASSWORD": "aif[]05Gah",
         "HOST": "localhost",
         "PORT": 5432,
     }
